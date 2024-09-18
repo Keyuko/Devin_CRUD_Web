@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    color:#ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #41436A;
+}
+
+td {
+    background-color: #475C7A;
+}
+
+button.update{
+    background-color: #FE9677;
+}
+
+button.delete{
+    background-color: #F64668;
+}
+
+button.create{
+    background-color: #984063;
+}
+
+input.updatename, input.updateemail{
+    background-color: lightgray;
+}
