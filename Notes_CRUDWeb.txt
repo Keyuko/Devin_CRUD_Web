@@ -1,0 +1,16 @@
+CRUD Website ini merupakan Website sederhana untuk melakukan pendataan nama beserta Email. konsepnya menggunakan CRUD dengan C(Create) yang diaplikasikan dengan membuat data, R(Read) yang diaplikasikan dengan membaca data yang telah di create, update, dan delete sebelumnya dan menampilkannya dalam bentuk table, U(update) yang diaplikasikan dengan mengupdate data yang telah ada di database setelah terjadi perubahan, dan D(delete) yang diaplikasikan untuk menghapus data yang telah di-create sebelumnya. 
+
+website ini menggunakan backend berbasis PHP dan juga frontend berbasis HTML yaitu CSS dan juga menggunakan framework bootstrap untuk merapihkan table dan juga membuat website responsive. 
+
+pada syntax php, saya menggunakan 3 variable yaitu nama, email, dan juga id. nama dan email sebagai variable yang diinput oleh user sedangkan id digunakan  untuk memudahkan proses CRUD di belakang layar, maka id tidak diperlihatkan langsung di halaman web.
+
+pada create.php, data diambil dari user berupa nama dan email. kemudian statement execute u memasukkan data ke database.
+
+pada delete.php, system delete menggunakan id yang sudah ditentukan dan menyiapkan data dan kemudian data didelete sesuai id data yang telah dipilih.
+
+pada read.php, query digunakan untuk mengambil seluruh line dari user kemudian seluruh data pada data base diambil dan ditampilkan.
+
+pada update.php, nama dan email yang telah diubah akan diambil dan di update pada data base, kemudian ditampilkan lagi pada table.
+
+Dengan bantuan GPT, pada bagian db.php saya menambahkan options untuk membantu asosiasi data array agar tetap rapih dan mencegah eror pada data dan membantu membuat database pada phpMyAdmin. GPT juga membantu saya dalam mencari informasi lebih mengenai konsep CRUD di XAMPP. 
+
